@@ -1,0 +1,21 @@
+{
+  "name": "mui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vue serve",
+    "dev": "vue serve",
+    "build": "vue build --target lib src/index.js -n ellipsis"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^3.12.2",
+    "less-loader": "^7.1.0"
+  },
+  "dependencies": {
+    "@vue/cli-service-global": "^4.5.9"
+  }
+}

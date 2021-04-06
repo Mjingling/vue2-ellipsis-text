@@ -1,0 +1,28 @@
+@unfoldTextFz: 12px;
+.m-ellipsis {
+    &-wrapper {
+        position: relative;
+    }
+    &-subfix {
+        content: '...';
+        text-align: right;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 10%;
+        text-align: right;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%);
+    }
+    &-unfold {
+        padding: 3px 3px 0px 20px;
+        position: absolute;
+        cursor: pointer;
+        bottom: 0;
+        right: 0;
+        background-color: #fff;
+        color: #3CBAFF;
+        text-align: right;
+        font-size: @unfoldTextFz;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%);
+    }
+}
